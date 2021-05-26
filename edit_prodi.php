@@ -17,7 +17,7 @@
             include 'navbar.php';
         ?>
     <div class="container-fluid">
-    <h1>EDIT</h1>
+    <h1>EDIT PROGRAM STUDI</h1>
     <a href="prodi.php">Kembali</a>
     <br><br>
         <form action="proces.php" method="post">

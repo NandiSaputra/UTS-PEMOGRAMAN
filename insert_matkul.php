@@ -16,7 +16,7 @@ $model = new Model();
     include 'navbar.php';
     ?>
     <div class="container-fluid">
-        <h1>Tambah</h1>
+        <h1>TAMBAH MATKUL</h1>
         <a href="matkul.php">Kembali</a>
         <br><br>
         <form action="proces.php" method="post">

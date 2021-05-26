@@ -5,7 +5,7 @@
 ?>
 <html>
     <head>
-        <title>TAMBAH DATA ABSEN</title>
+        <title>TAMBAH DATA DOSEN</title>
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
         rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
@@ -16,7 +16,7 @@
             include 'navbar.php';
         ?>
     <div class="container-fluid">
-    <h1>TAMBAH DATA ABSEN</h1>
+    <h1>TAMBAH DATA DOSEN</h1>
     <a href="dosen.php">Kembali</a>
     <br><br>
         <form action="proces.php" method="post">
