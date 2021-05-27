@@ -110,11 +110,11 @@ if (isset($_POST['edit_absen'])) {
     $keluar = $_POST['keluar'];
     $dosen = $_POST['dosen'];
     $sesi = $_POST['sesi'];
-    $kelassesi = $_POST['kelassesi'];
+    $kelas = $_POST['kelas'];
    
 
     $model = new Model();
-    $model->update_absen($idabsen, $tgl, $masuk, $keluar, $dosen, $sesi, $kelasises);
+    $model->update_absen($idabsen, $tgl, $masuk, $keluar, $dosen, $sesi, $kelas);
     header('location:absensi.php');
 }
 if (isset($_GET['id'])) {
